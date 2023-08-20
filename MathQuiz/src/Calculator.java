@@ -1,25 +1,30 @@
+import java.util.Random;
+
 public class Calculator {
-        int sum ;
 
 
-    public int Add(int number1, int number2){
+
+
+
+    public int add(int number1, int number2){
         return number1 + number2;
 
 
     }
 
-    public int Subtract(int number1, int number2){
+    public int subtract(int number1, int number2){
 
         return number1 - number2;
     }
-    public int Multiply(int number1, int number2){
+    public int multiply(int number1, int number2){
 
         return number1 * number2;
 
     }
-    public int Divide(int number1, int number2){
+    public int divide(int number1, int number2){
         return number1 / number2;
 
     }
+
 }
 
